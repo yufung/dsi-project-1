@@ -13,7 +13,7 @@ This data science problem involves identifying likely factors influencing SAT an
 ## Data Dictionary
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
-|**state**|_object_|2017 SAT Scores<br>2017 ACT Scores |50 states and the federal district (Washington, D.C.) of the United States.|
+|**state**|_object_|2017 SAT Scores<br>2017 ACT Scores<br>2018 SAT Scores<br>2018 ACT Scores|50 states and the federal district (Washington, D.C.) of the United States.|
 |**sat_2017_participation**|_float_|2017 SAT Scores|The participation rate of the 2017 SAT in each state.|
 |**sat_2017_evidence-based_reading_and_writing**|_integer_|2017 SAT Scores|The average score for the 2017 SAT Evidence-Based Reading and Writing section in each state.|
 |**sat_2017_math**|_integer_|2017 SAT Scores|The average score for the 2017 SAT Math section in each state.|
@@ -24,6 +24,16 @@ This data science problem involves identifying likely factors influencing SAT an
 |**act_2017_reading**|_float_|2017 ACT Scores|The average score for the 2017 ACT Reading test in each state.|
 |**act_2017_science**|_float_|2017 ACT Scores|The average score for the 2017 ACT Science test in each state.|
 |**act_2017_composite**|_float_|2017 ACT Scores|The average composite score for the 2017 ACT in each state.|
+|**sat_2018_participation**|_float_|2018 SAT Scores|The participation rate of the 2018 SAT in each state.|
+|**sat_2018_evidence-based_reading_and_writing**|_integer_|2018 SAT Scores|The average score for the 2018 SAT Evidence-Based Reading and Writing section in each state.|
+|**sat_2018_math**|_integer_|2018 SAT Scores|The average score for the 2018 SAT Math section in each state.|
+|**sat_2018_total**|_integer_|2018 SAT Scores|The average total score for the 2018 SAT in each state.|
+|**act_2018_participation**|_float_|2018 ACT Scores|The participation rate of the 2018 ACT in each state.|
+|**act_2018_english**|_float_|2018 ACT Scores|The average score for the 2018 ACT English test in each state.|
+|**act_2018_math**|_float_|2018 ACT Scores|The average score for the 2018 ACT Math test in each state.|
+|**act_2018_reading**|_float_|2018 ACT Scores|The average score for the 2018 ACT Reading test in each state.|
+|**act_2018_science**|_float_|2018 ACT Scores|The average score for the 2018 ACT Science test in each state.|
+|**act_2018_composite**|_float_|2018 ACT Scores|The average composite score for the 2018 ACT in each state.|
 ## Conclusions and Recommendations
 - SAT and ACT are substitutes for one another.
 - A greater number of states have high participation rates in ACT than SAT.
